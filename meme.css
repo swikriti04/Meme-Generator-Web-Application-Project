@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 65vw;
+    margin: 10px auto;
+    text-align: center;
+}
+#memes{
+    width: 65vw;
+    height: 70vh;
+    position: relative;
+}
+body{
+    background: linear-gradient(rgb(202, 144, 197),rgb(189, 76, 170),rgb(196, 190, 247));
+}
+#hint{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: gray;
+    position: relative;
+    top: 40%;
+    font-size: xx-large;
+}
+img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+textarea{
+    width: 65vw;
+    resize: vertical;
+    height: 40px;
+    font-size: 25px;
+    overflow: hidden;
+    height: 60px;
+    text-align: center;
+    outline: none;
+    margin-bottom: -10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    padding: 5px;
+}
+#upper{
+    background: #e5ff00;
+    color: black;
+}
+#lower{
+    background: black;
+    color: white;
+}
+#input{
+    display: none;
+    margin-top: 50px;
+}
+.btn{
+    background: rgb(149, 43, 43);
+    text-transform: capitalize;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#downloads{
+    display: none;
+}
+i{
+    padding: 0 5px;
+}
+.access{
+    margin-top: 20px;
+    text-align: center;
+}
+#memes{
+    background: rgb(134, 143, 175);
+}
+
+@media screen and (max-width:800px){
+    #main,img,textarea,#memes{
+        width: 90vw;
+    }
+}
+@media screen and (max-width:579px){
+    #memes,img{
+        height: 50vh;
+    }
+    .access a{
+        display: block;
+        width: 170px;
+        margin: 5px auto;
+    }
+}
